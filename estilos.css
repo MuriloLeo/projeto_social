@@ -30,5 +30,29 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
     background: url(projeto_social/imagens/frame-iphone.png)no-repeat;
-    background-color: red;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 470px;
+}
+
+section#social{
+    text-align: right;
+}
+
+#redes-sociais{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(10, 9, 9, 0.564);
+    box-sizing: border-box;
+}
+
+#redes-sociais:hover{
+    transform: translate(-3px, 3px);
+    transition: .4s;
 }
